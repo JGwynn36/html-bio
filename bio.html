@@ -1,27 +1,74 @@
 <!DOCTYPE html>
+<html lang="en-us">
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>My Bio</title>
+    <style>
+        body {
+            padding: 20px; 
+            margin: 0; 
+            font-size: 18px; 
+            line-height: 150%;
+            color: white; 
+            background: lightgray; 
+        }
+        header {
+            background: black;
+            color: white;
+
+        }
+        h1 {
+            padding: 20px 0; 
+            margin: 0; 
+            margin-bottom: 20px;
+        }
+        .name {
+            font-size: 30px;
+            color: coral;
+            align-items: center;
+        }
+        #main {
+            display: -webkit-flex; /* Safari */
+            -webkit-align-items: center; /* Safari 7.0+ */
+            display: flex;
+            align-items: left;
+            color:black;
+            }
+        section {
+            padding: 20px;
+        }
+        
+    </style>
 
 </head>
 <body>
-    <h1>Student Bio</h1>
-    <h2>Jacqueline Gwynn</h2>
-    <img src="https://placehold.it/200x200" alt="Jacqueline">
-    <br><br>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        <a href="https://www.lipsum.com/">Go To the Internet</a>
-    </p>
-    <br>
-    <h2>Contact Info</h2>
-    <br>
-    <ul>
+    <header>
+        <h1>Student Bio</h1>
+    </header>
+        <h2 class="name">Jacqueline Nicole Gwynn</h2>
+
+    <div id="main">
+        <section>
+        <img src="https://media.licdn.com/dms/image/C4E03AQGB44bss6yqWA/profile-displayphoto-shrink_800_800/0?e=1549497600&v=beta&t=s7wSn8O_fsBiu5gLagky87amRMJ_r7YbeJV3EkGQ8fs" width="400" height="400" alt="Jacqueline Gwynn">
+        </section>
+
+        <section>
+        <h2>About Me</h2>
+        <p>Experienced Senior Software Engineer in Test with a background in front-end and API development to support a financial services company. Skilled in Analytical Skills, Requirements Analysis, Agile, Javascript, and Node. Strong engineering professional with a Master of Information Systems focused in Information Technology from University of Phoenix.
+        <a href="https://www.linkedin.com/in/jacqueline-gwynn-csm-cspo-8689b096/">linkedin profile</a>
+        </p>
+        </section>
+
+        <section>
+        <h2>Contact Info</h2>
+        <ul>
         <li><strong>Email:</strong> <a href = "mailto:jacquelinegwynn@yahoo.com">jacquelinegwynn@yahoo.com</a> </li>
         <li><strong>Github:</strong> <a href ="https://github.com/JGwynn36">github</a></li>
         <li><strong>Portfolio:</strong>Comming Soon</li>
-
-    </ul>
-    
+        </ul>
+        </section>
+    </div>
     
 </body>
 </html>
